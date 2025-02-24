@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forloop", "forloop\forloop.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "password", "password\password.csproj", "{BF016CAF-7207-4EA6-9C25-549EE42F421A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm", "Atm\Atm.csproj", "{FF20B98B-E7EC-4559-B99E-0B7FA1D3D8ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BF016CAF-7207-4EA6-9C25-549EE42F421A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF016CAF-7207-4EA6-9C25-549EE42F421A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF016CAF-7207-4EA6-9C25-549EE42F421A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF20B98B-E7EC-4559-B99E-0B7FA1D3D8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF20B98B-E7EC-4559-B99E-0B7FA1D3D8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF20B98B-E7EC-4559-B99E-0B7FA1D3D8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF20B98B-E7EC-4559-B99E-0B7FA1D3D8ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
