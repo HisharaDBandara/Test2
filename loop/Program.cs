@@ -5,13 +5,16 @@
         static void Main(String[] args)
         {
 
-            int x = 0;
-
-            while (x <= 4)
+            for (int i = 101; i < 200; i++)
             {
-                Console.WriteLine("Hello world");
-                x++;
+                if (i % 9 == 0)
+                {
+                    Console.WriteLine(i);
+
+                }
             }
+
+
         }
     }
 }
