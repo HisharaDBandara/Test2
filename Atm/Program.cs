@@ -28,7 +28,7 @@ namespace atm
                     Console.WriteLine($"Incorrect pin. {attempt - i - 1}attempt left: ");
                 }
             }
-            Console.WriteLine("thank you");
+            Console.WriteLine("thank you for using ATM");
         }
     }
 }
