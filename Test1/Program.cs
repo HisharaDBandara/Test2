@@ -25,9 +25,7 @@ namespace example
             Console.Write("Input unit consume by customer:");
             unit = Convert.ToInt32(Console.ReadLine());
 
-            
-           
-            
+                        
             if (unit<200)
             {
                charges = 1.20;
@@ -56,8 +54,6 @@ namespace example
                 netAmount = 100;
 
 
-
-
             Console.Write("\nElectricity Bill \n");
             Console.Write("Customer ID                       :{0}\n", cusid);
             Console.Write("Customer Nmae                     :{0}\n" , cusname);
@@ -65,8 +61,6 @@ namespace example
             Console.Write("Amount Chargers @Rs. {0} per Unit :{1}\n", charges,amount);
             Console.Write("Servise charge Amount             :{0}\n" , servicechargers);
             Console.Write("Net Amount paid by Customer       :{0}\n" , netAmount);
-
-
 
             Console.ReadLine();
             {
